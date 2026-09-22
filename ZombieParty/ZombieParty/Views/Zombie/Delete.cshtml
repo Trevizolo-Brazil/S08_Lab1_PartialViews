@@ -29,6 +29,13 @@
 
                 <div class="form-group row">
                     <div class="col-4">
+                        <label asp-for="@Model.Force" class="form-control" />
+                        <span asp-validation-for="@Model.Point" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-4">
                         <label asp-for="@Model.Point" class="control-label"></label>
                     </div>
                     <div class="col-8">
