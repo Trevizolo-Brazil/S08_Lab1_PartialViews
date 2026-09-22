@@ -59,7 +59,7 @@
                         <label asp-for="@Model.Zombie.Force" class="control-label"></label>
                     </div>
                     <div class="col-8">
-                        <select class="form-control form-select" asp-for="@Model.Zombie.Force" asp-items="@Model.ZombieTypeSelectList">
+                        <select class="form-control form-select" asp-for="@Model.Zombie.Force">
                             <option disabled selected>--Select Zombie Type--</option>
                         </select>
                         <span asp-validation-for="@Model.Zombie.Force" class="text-danger"></span>
